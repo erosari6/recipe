@@ -161,8 +161,8 @@ nav a > img {
 }
 .navigation {
     position: absolute;
-    top: -20px;
-    border-bottom: -10px;
+    top: 0px;
+    margin-top: -20px;
     background-color: #ffffff;
     width: 1264px;
     text-align: center;
