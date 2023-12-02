@@ -1,0 +1,225 @@
+
+@import url('https://fonts.google.com/share?selection.family=Bebas%20Neue%7CMontserrat:ital,wght@0,400;0,700;1,400');
+html {
+    width: 1280px;
+    margin: 0 auto;
+    background-color:rgba(122, 191, 191, .5);
+}
+body {
+    background-color: #F2F2F2;
+}
+h1, h2, h3, nav a, menu li, .connect li, footer {
+    font-family: 'BEBAS NEUE';
+    font-weight: 400;
+}
+p, dd, li, nav, input {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+}
+dt {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+}
+nav a, menu li, .connect li, footer {
+    font-size: 20px;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 25px;
+}
+button{
+    border: none;
+    background-color: transparent;
+    color: #EB5428;
+}
+
+.search {
+    border: 2px solid #EB5428;
+    position: absolute;
+    top: 160px;
+    margin-left: 525px;
+    background-color: #EB5428;
+}
+.search label {
+    display: none;
+}
+.search input {
+    padding-top: 10px;
+    padding-right: 5px;
+}
+
+.search button > svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+h1 {
+    padding-top: 20px;
+}
+menu li {
+    list-style-type: none;
+    text-align: center;
+    margin-left: -50px;
+    
+}
+menu > li {
+    margin-top: 40px;
+}
+menu {
+    border: 2px solid #EB5428;
+    background-color: #ffffff;
+    height: 500px;
+    width: 120px;
+    margin-top: -0.5px;
+    color:#EB5428;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 20% 30% 50%;
+    max-height: 500px;
+}
+header {
+    padding-top: 150px;
+}
+h1, h2 {
+    text-align: center;
+}
+/*
+dl {
+    display: grid;
+    grid-template-columns: max-content auto;
+}*/
+#streettacos {
+    width: 450px;
+    height: 503px;
+    margin-left: -89px;
+    margin-top: -0.5px;
+}
+.sides {
+    background-color: #7ABFBF;
+    padding-top: 10px;
+}
+#sideorders {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    column-gap: 80px;
+    
+}
+.details {
+    background-color: #0D0D0D;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 2px;
+}
+.details h2, .details dl {
+    color:#7ABFBF;
+}
+dl{
+    text-align: center;
+}
+dl div{
+    display: inline-block;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 50px;
+}
+.recipe {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    
+}
+dl dd {
+    margin-left: -1px;
+}
+.navigation ul {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    margin-left: -40px;
+}
+/* delete below after you edit nav with a href
+.navigation li > img {
+    height: 100px;
+    width: 100px;
+}*/
+nav a > img {
+    height: 101px;
+    width: 101px; 
+}
+.navigation li{
+    padding-top: 20px;
+    margin-bottom: -15px;
+}
+.navigation {
+    position: absolute;
+    top: -20px;
+    border-bottom: -10px;
+    background-color: #ffffff;
+    width: 1264px;
+    text-align: center;
+}
+nav li {
+    list-style-type: none;
+        
+}
+nav a {
+    text-decoration: none;
+    color:#EB5428;
+}
+nav ul > a:first-of-type {
+    color: transparent;
+}
+
+nav li:first-of-type{
+    background-color: #EB5428;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 20px;
+}
+nav li:last-of-type{
+    margin-top: 20px;
+}
+.connect h2 {
+    display: none;
+}
+.navigation h2 {
+    display: none;
+}
+.connect h3 {
+    display: none;
+}
+.connect ul{
+    display: flex;
+    list-style-type: none;
+    color:#EB5428;
+    text-align: center;
+    justify-content: right;
+}
+.connect li {
+    margin: 20px;
+}
+footer {
+    margin: 20px;
+    font-size: 20px;
+    margin-top: -120px;
+}
+#copyright {
+    position: absolute;
+    left: 350px;
+}
+footer img {
+    width: 200px;
+    height: 200px;
+}
+footer div {
+    display: flex;
+}
